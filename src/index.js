@@ -1,0 +1,1 @@
+import { pageLoad } from '/home/peter/repos/restaraunt-page/src/page-load';
