@@ -1,16 +1,18 @@
 const pageLoad = (() => {
+
     const content = document.querySelector('#content');
+    const header = document.createElement('header-container')
 
 
-    content.innerHTML = `
+    header.innerHTML = `
     <div class="header-container">
     <div class="header">Burger Master</div>
-    <div class="home tab"><a href="">Home</a></div>
-    <div class="menu tab"><a href="">Menu</a></div>
-    <div class="contacts tab"><a href="">Contact us</a></div>
+    <a class="home tabs" href="">Home</a>
+    <a class="menu tabs" href="">Menu</a>
+    <a class="contacts tabs" href="">Contact us</a>
 </div>
         `;
-    document.body.appendChild(content);
+    content.appendChild(header);
 })();
 
 export {pageLoad};
