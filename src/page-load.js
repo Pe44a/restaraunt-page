@@ -7,7 +7,7 @@ const pageLoad = (() => {
     header.innerHTML = `
     <div class="header-container">
     <div class="header">Burger Master</div>
-    <a class="home tabs" href="">Home</a>
+    <a class="home tabs selected-page" href="">Home</a>
     <a class="menu tabs" href="">Menu</a>
     <a class="contacts tabs" href="">Contact us</a>
 </div>

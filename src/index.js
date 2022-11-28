@@ -20,6 +20,10 @@ tabs.forEach(tab => {
             homePageHtml.classList.remove('disable');
             menuPageHtml.classList.add('disable');
             contactsPageHtml.classList.add('disable');
+
+            home.classList.add('selected-page');
+            menu.classList.remove('selected-page');
+            contacts.classList.remove('selected-page');
         });
 
 
@@ -27,6 +31,10 @@ tabs.forEach(tab => {
             menuPageHtml.classList.remove('disable');
             contactsPageHtml.classList.add('disable');
             homePageHtml.classList.add('disable');
+
+            menu.classList.add('selected-page');
+            home.classList.remove('selected-page');
+            contacts.classList.remove('selected-page');
         });
 
 
@@ -34,6 +42,10 @@ tabs.forEach(tab => {
             contactsPageHtml.classList.remove('disable');
             homePageHtml.classList.add('disable');
             menuPageHtml.classList.add('disable');
+
+            contacts.classList.add('selected-page');
+            home.classList.remove('selected-page');
+            menu.classList.remove('selected-page');
         });
     });
 });
