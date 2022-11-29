@@ -7,19 +7,19 @@ const menuPageRender = (() => {
     menuPage.innerHTML = `
         <div class="restaurant-menu-container disable">
                 <div class="restaurant-menu">
-                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/src/images/cheeseburger.jpeg" alt="cheeseburger">
+                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/dist/images/cheeseburger.jpeg" alt="cheeseburger">
                     <h1>Cheeseburger: 3$</h1>
                 </div>
                 <div class="restaurant-menu">
-                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/src/images/double_cheeseburger.avif" alt="double cheeseburger">
+                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/dist/images/double_cheeseburger.avif" alt="double cheeseburger">
                     <h1> Double Cheeseburger: 4$</h1>
                 </div>
                 <div class="restaurant-menu">
-                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/src/images/bbq_burger.avif" alt="bbq burger">
+                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/dist/images/bbq_burger.avif" alt="bbq burger">
                     <h1>BBQ Burger: 5$</h1>
                 </div>
                 <div class="restaurant-menu">
-                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/src/images/egg_burger.png" alt="egg burger">
+                    <img class="restaurant-menu-img" src="/home/peter/repos/restaurant-page/dist/images/egg_burger.png" alt="egg burger">
                     <h1>Egg Burger: 3$</h1>
                 </div>
             </div>
