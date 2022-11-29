@@ -1,0 +1,138 @@
+:root {
+    --base-color: rgb(211 107 107);
+    --body-height: 88vh;
+    --header-height: 12vh;
+}
+
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+/* Header */
+
+.header-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: var(--header-height);
+    background-color: rgb(0 0 0);
+}
+
+.header {
+    font-size: 55px;
+    font-weight: 550;
+    color: var(--base-color);
+}
+
+.tabs {
+    font-size: 35px;
+}
+
+/* Home page */
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: var(--body-height);
+    background: url(/home/peter/repos/restaurant-page/dist/images/main-background.jpg);
+    background-size: 2000px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 25px;
+    color: var(--base-color);
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(3px);
+}
+
+.copy {
+    font-size: 45px;
+}
+
+.schedule {
+    margin: 13px;
+}
+
+/* Menu */
+.restaurant-menu-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    min-height: var(--body-height);
+    margin: 0 15vw 0;
+    background-color: var(--base-color);
+}
+
+.restaurant-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.restaurant-menu-img {
+    height: 330px;
+    width: 360px;
+    border-radius: 5px;
+}
+
+
+/* Contacts */
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: var(--body-height);
+
+}
+
+.contact {
+    font-size: 55px;
+    padding: 35px;
+    background-color: var(--base-color);
+    border: solid none;
+    border-radius: 5px;
+}
+
+.pattern {
+    background-size: 50px 50px;
+background-color: rgba(211, 107, 107, 0.604);
+background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -ms-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -o-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+}
+
+/* Links */
+
+a {
+    color: var(--base-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(250, 199, 199);
+}
+
+.selected-page {
+    color: rgb(250, 199, 199);
+}
+
+/* Hides content */
+
+.disable {
+    display: none;
+}
