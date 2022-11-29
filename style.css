@@ -38,7 +38,7 @@ body {
     flex-direction: column;
     justify-content: center;
     min-height: var(--body-height);
-    background: url(/home/peter/repos/restaurant-page/dist/images/main-background.jpg);
+    background: url(images/main-background.jpg);
     background-size: 2000px;
 }
 
